@@ -10,8 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-### SINCE THIS APP IS JUST FOR DEMO, I HAVE INCLUDED
-# SETTINGS.PY too on github
 from pathlib import Path
 import os
 from datetime import timedelta
@@ -25,15 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'i0q)bw41rz$c0za+f$b=oh+t3m@gfsm=*8(+-2o0*55v*rbl%i'
+# THis will be replaced
+SECRET_KEY = 'django-insecure-#u!!4(-(@+1y6lqwigkpe@qf890=ay*5nuxvik*c*nn#_jhkfx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
-
-
+ALLOWED_HOSTS = []
 AUTH_USER_MODEL = 'expenses.User'
 
 # Application definition
@@ -45,9 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework_simplejwt',
-    'corsheaders',
     'expenses'
 ]
 
@@ -149,7 +142,6 @@ REST_FRAMEWORK = {
         'rest_framework.parsers.JSONParser',
     ],
 }
-
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
@@ -175,18 +167,6 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_LIFETIME': timedelta(minutes=5),
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
-
-
-DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
-# if not DEBUG:
-#     SECURE_BROWSER_XSS_FILTER = True
-#     SECURE_CONTENT_TYPE_NOSNIFF = True
-#     SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-#     SECURE_HSTS_SECONDS = 31536000
-#     SECURE_REDIRECT_EXEMPT = []
-#     SECURE_SSL_REDIRECT = True
-#     SESSION_COOKIE_SECURE = True
-#     CSRF_COOKIE_SECURE = True
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -230,4 +210,6 @@ LOGGING = {
         },
     },
 }
+
+# Create logs directory if it doesn't exist
 os.makedirs(os.path.join(BASE_DIR, 'logs'), exist_ok=True)
