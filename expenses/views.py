@@ -15,8 +15,9 @@ from django.utils.dateparse import parse_date
 from datetime import date,timedelta
 from .models import User,Expense,ExpenseCategory
 from .serializers import(
-    UserSerializer, LoginSerializer, ExpenseSerializer, 
+    UserSerializer, LoginSerializer, 
     ExpenseCategorySerializer, ExpenseAnalyticsSerializer
+    ,ExpenseSerializer
     
 )
 

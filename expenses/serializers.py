@@ -29,6 +29,11 @@ class LoginSerializer(serializers.Serializer):
             raise serializers.ValidationError("Must include email and password")
         return data
 class ExpenseCategorySerializer(serializers.ModelSerializer):
+    """Serializer for expense categories"""
+    class Meta:
+        model = ExpenseCategory
+        fields = ['id', 'name', 'description']
+class ExpenseSerializer(serializers.ModelSerializer):
     category=serializers.CharField(source='category.name',read_only=True)
     class Meta:
         model=Expense

@@ -1,0 +1,45 @@
+INFO 2025-07-03 22:46:34,503 autoreload 10404 18000 Watching for file changes with StatReloader
+INFO 2025-07-03 22:46:53,286 autoreload 10404 18000 D:\projects-extra\assignments-internships\expense_tracker\expenses\models.py changed, reloading.
+INFO 2025-07-03 22:46:54,864 autoreload 23664 20608 Watching for file changes with StatReloader
+INFO 2025-07-03 22:46:56,260 autoreload 23664 20608 D:\projects-extra\assignments-internships\expense_tracker\expenses\models.py changed, reloading.
+INFO 2025-07-03 22:46:57,672 autoreload 23924 23220 Watching for file changes with StatReloader
+INFO 2025-07-03 22:51:56,255 autoreload 1876 11552 Watching for file changes with StatReloader
+INFO 2025-07-03 22:53:55,529 autoreload 16500 20040 Watching for file changes with StatReloader
+INFO 2025-07-03 22:53:58,345 basehttp 16500 24492 "GET / HTTP/1.1" 301 0
+INFO 2025-07-03 22:53:58,374 basehttp 16500 5204 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06\x1a\x1a\x03\x04\x03\x03\x003\x04ï\x04íZZ\x00\x01\x00\x11ì\x04Àm!6\x89\x81¯\x08ä\x01\x19Á´º')
+ERROR 2025-07-03 22:53:58,376 basehttp 16500 5204 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:53:58,383 basehttp 16500 11060 code 400, message Bad request version ('¢Î»\x0fR\x14ÿñûÀQ¤YG\x02NÓü\x1a9õï³öÄ')
+ERROR 2025-07-03 22:53:58,385 basehttp 16500 11060 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:06,702 basehttp 16500 7896 code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÚÚ\x00\x00\x00')
+ERROR 2025-07-03 22:54:06,708 basehttp 16500 7896 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:06,710 basehttp 16500 22976 code 400, message Bad request version ('HõäÎÞURd\xad¢fMú\x96#;1È\x9a´\x04n\x9eë\\\x1a\x11\x19XÛ÷A\x00')
+ERROR 2025-07-03 22:54:06,710 basehttp 16500 22976 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:06,767 basehttp 16500 7544 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x003\x04ï\x04íúú\x00\x01\x00\x11ì\x04ÀÖÛ\\ô!T+\x02\x88ì5°1\x10q\x10º}#')
+ERROR 2025-07-03 22:54:06,778 basehttp 16500 7544 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:06,778 basehttp 16500 17940 code 400, message Bad request version ('\x00\x02\x01\x00\x003\x04ï\x04í')
+ERROR 2025-07-03 22:54:06,782 basehttp 16500 17940 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:31,372 basehttp 16500 20060 "GET /admin HTTP/1.1" 301 0
+INFO 2025-07-03 22:54:31,383 basehttp 16500 13720 code 400, message Bad request version ('\x86ÓâÕi\x13w\x97n¢ÖùT\x11ä¦«N')
+ERROR 2025-07-03 22:54:31,384 basehttp 16500 13720 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:31,386 basehttp 16500 21616 code 400, message Bad request version ('\x00/¨ÁÀ(Ëj{@\x96Ö>\x11\x051T\x86åy\x00#\x00\x00\x00+\x00\x07\x06\x1a\x1a\x03\x04\x03\x03ÿ\x01\x00\x01\x00\x00-\x00\x02\x01\x01\x00')
+ERROR 2025-07-03 22:54:31,387 basehttp 16500 21616 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:37,667 basehttp 16500 22464 "GET /admin/ HTTP/1.1" 301 0
+INFO 2025-07-03 22:54:37,980 basehttp 16500 18424 code 400, message Bad request version ('VæÏ')
+ERROR 2025-07-03 22:54:37,980 basehttp 16500 18424 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:38,233 basehttp 16500 10312 code 400, message Bad request version ('\x12º')
+ERROR 2025-07-03 22:54:38,233 basehttp 16500 10312 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:38,299 basehttp 16500 16164 code 400, message Bad request version ('\x02h2\x08http/1.1\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04ÀEc\x7f\x04Ò\x029Ç»×6B')
+ERROR 2025-07-03 22:54:38,299 basehttp 16500 16164 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:38,547 basehttp 16500 23300 code 400, message Bad request version ('4\x16Èø~h9')
+ERROR 2025-07-03 22:54:38,547 basehttp 16500 23300 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:58,308 basehttp 16500 5108 "GET / HTTP/1.1" 301 0
+INFO 2025-07-03 22:54:58,345 basehttp 16500 5248 code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03c\x07Þ}±å]p*\x13gw\x88\x00.\x08kÞD\x10¿Ä\x9d¬º¢·\xadi')
+ERROR 2025-07-03 22:54:58,350 basehttp 16500 5248 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:54:58,352 basehttp 16500 22668 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+ERROR 2025-07-03 22:54:58,354 basehttp 16500 22668 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:55:06,517 basehttp 16500 7024 code 400, message Bad request version ('DÌÜ\x8b2\x15\x0eb\x0f;{C@ÒÙà_\x00\x13ñ©w!')
+ERROR 2025-07-03 22:55:06,520 basehttp 16500 7024 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:55:06,524 basehttp 16500 13044 code 400, message Bad request version ('\x8f]~')
+ERROR 2025-07-03 22:55:06,524 basehttp 16500 13044 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-07-03 22:56:04,197 autoreload 16500 20040 D:\projects-extra\assignments-internships\expense_tracker\expense_tracker\settings.py changed, reloading.
+INFO 2025-07-03 22:56:05,931 autoreload 776 5568 Watching for file changes with StatReloader
