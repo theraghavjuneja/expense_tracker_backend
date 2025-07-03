@@ -48,6 +48,19 @@ class ExpenseAnalyticsSerializer(serializers.Serializer):
     """
     total_expenses=serializers.DecimalField(max_digits=12,decimal_places=2)
     expense_count=serializers.IntegerField()
+    category_breakown=serializers.ListField(
+        child=serializers.DictField()
+    )
+    daily_trends=serializers.ListField(
+        child=serializers.DictField()
+    )
+    weekly_trends=serializers.ListField(
+        child=serializers.DictField()
+    )
+    monthly_trends=serializers.ListField(
+        child=serializers.DictField()
+    )
+    
     
 
 
